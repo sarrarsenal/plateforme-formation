@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plateforme d'admission uvs">
+    <meta name="author" content="uvs, Université Virtuelle du Sénégal">
+    <link rel="icon" href="faviconuvs.ico">
+    <title>Admission`| Nouvelles offres de formation UVS</title>
+    <!-- appel des fichier bootstrap et le fichier pour gerer le responsive design -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- mon style  -->
+    <link href="css/monstyle.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- barre de navigation fixe-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/LogoUvs.jpg" alt="Logo uvs"></img></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <p class="li_class">ADMISSION A L'UVS | <i class="glyphicon glyphicon-exclamation-sign" style="color:#00a13a"></i><a href="#" target="_blank" style="color:#000000; font-size:14px"> Guide d'utilisation  <br> </a> <span class="annee"> 2017- 2018 </span></p>
+            </ul>
+        </div><!--/.fin div nav bar navigation -->
+    </div><!--/.fin div container -->
+</nav><!--/.fin nav-->
+
+<div class="row" style="padding-bottom:128px"> </div>
+<div class="container back_img">
+    <div class="container"><!--  debut container -->
+        <h1 class="text_aligncenter" class="marron" style="font-weight: bold">Bienvenue sur le portail d'admission de l'UVS</h1>
+        <p class="text_paragraphe">Déposez votre candidature en quatre étapes</p>
+        <div class="container">
+            <div class="col-sm-3">
+                <i class="glyphicon glyphicon-user icone"> </i>
+                <p class="marron"> Etape 1 </p>
+                <p >Créez un compte</p>
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-3">
+                <i class="glyphicon glyphicon-lock icone"> </i>
+                <p class="marron"> Etape 2 </p>
+                <p class="text_left"> Activez le compte </p>
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-3">
+                <i class="glyphicon glyphicon-log-in icone"> </i>
+                <p class="marron"> Etape 3 </p>
+                <p >Connectez-vous  </p>
+            </div><!-- /.col-sm-3 -->
+            <div class="col-sm-3">
+                <i class="glyphicon glyphicon-folder-close icone"> </i>
+                <p class="marron"> Etape 4 </p>
+                <p >Déposez votre dossier  </p>
+            </div><!-- /.col-sm-3 -->
+            <div class="row" style="padding-bottom:80px"> </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="col-sm-5">
+                <div class="submit">
+                    <input type="submit" onclick="myFunction()" value="Je n'ai pas encore de compte [ M'inscrire ]">
+                </div>
+            </div><!-- /.col-sm-6 -->
+            <div class="col-sm-5">
+                <div class="submit">
+                    <input type="submit" value="J'ai déja un compte [ Me connecter ] "  id="btnannuler">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="padding-bottom:30px"> </div>
+    <div class="container" style="display:none" id="bloc_form">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <form id="form_log"  action="#" method="POST" >
+                        <p class="text_paragraphe"> <i class="glyphicon glyphicon-user" style="color:#A15400; font-size: 30px; text-align: center;"></i></p><h3 class="panel-title" style="text-align: center">ENTREZ VOTRE IDENTIFIANT ET MOT DE PASSE</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="col-sm-6">
+                            <div class="lable">
+                                <input type="text" class="text" value="prenom.nom@uv.edu.sn" >
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="lable">
+                                <input type="password" class="text" value="Votre mot de passe"  placeholder="votre mot de passe">
+                            </div>
+                        </div>
+                        <div class="col-sm-12" style="margin-bottom: 20px; margin-left: 220px">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#"  data-toggle="modal" data-target="#formForgotPassword">Mot de passe oublié ? </a> </div>
+
+                        <div class="container">
+                            <a href="#" data-target="#pwdModal" data-toggle="modal"></a>
+                        </div>
+
+                        <!--modal-->
+                        <div id="formForgotPassword" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="col-md-12">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="text-center">
+                                                        <p>Recupération mot de passe oublié.</p>
+                                                        <div class="panel-body">
+                                                            <fieldset>
+                                                                <div class="form-group">
+                                                                    <input class="form-control input-lg" placeholder="Votre e-mail" name="email" type="email">
+                                                                </div>
+                                                                <input class="btn btn-primary" style="width: 130px; height: 60px; background-color: #00a13a;color: #ffffff" value="VALIDER" type="submit">
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="col-md-12">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <input type="button" onclick="myFunction()" value="Se connecter" >
+                        </div>
+                        <div class="submit">
+                            <input type="reset" onclick="myFunction()" value="Réinitialiser" >
+                        </div>
+                        <div class="clear"> </div>
+                    </form>
+                </div><!-- /panel body-->
+            </div><!-- /panel-group -->
+            </form>
+        </div><!-- /container -->
+    </div><!-- /container -->
+</div><!-- /container -->
+</div>
+<div class="row" style="padding-bottom:30px"> </div>
+<div class="container" id="bloc_admission">
+    <div class="col-sm-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading panel_marron">
+                <h3 class="panel-title "> NOS LICENCES</h3>
+            </div>
+            <div class="panel-body" style="min-height: 320px">
+                - Sciences Economiques et de Gestion (SEG) <br/>
+                - Sciences Juridiques (SJ)<br/>
+                - Science Politique (SP)<br/>
+                - Sociologie<br/>
+                - Anglais<br/>
+                - Administration Economique et Sociale (AES)<br/>
+                - Mathématiques Appliquées et Informatique (MAI)<br/>
+                - Multimédia-Internet-Communication (MIC)<br/>
+                - Arts Graphiques et Numériques (AGN)<br/>
+                - Développement d'Applications : web , mobile, gaming (DAWMG)<br/>
+                - Communication Digitale (CD)<br/>
+                - Sciences de l'Education <br/>
+            </div>
+            <div class="btn-primary transformation panel_marron" data-toggle="modal" data-target="#myModal"> Conditions d'admission et tarifs</div>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Contenu modal 1 (conditions d'admissions licence)-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tarifs et condition d'admission pour licence</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Conditions d'admission</th>
+                                    <th>Tarifs</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td> <p>Régime normal
+                                        (Vous êtes étudiant et/ou vous n’avez pas d’activité professionnelle) </p></td>
+                                    <td>
+                                        <ul>
+                                            <li>Admission en L1 : être titulaire d’un baccalauréat (ou d’un diplôme de niveau équivalent) dans une série en relation avec la formation demandée</li>
+                                            <li>Admission en L2 : être titulaire d’un bac+1, dans une spécialité ou une discipline en relation avec la formation demandée</li>
+                                            <li>Admission en L3 : être titulaire d’un bac+2, dans une spécialité ou une discipline en relation avec la formation demandée</li>
+                                            <li>Remplir le formulaire de candidature en ligne et y joindre toutes les pièces demandées (tout dossier incomplet ne sera pas pris en compte)</li>
+                                            <li>Disposer d’un ordinateur et d’une connexion Internet</li>
+                                            <li>Avis favorable de la commission de sélection des candidats</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Droits d’inscription : 30.000 F CFA / an</li>
+                                            <li>8 mensualités de 15.000 F CFA ou 4 paiements de 30.000 F CFA</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><p>Régimee spécial
+                                        Vous êtes ancien étudiant et/ou vous disposez d’une d’activité professionnelle (salariés ou non salariée), </p></td>
+                                    <td>
+                                        <ul>
+                                            <li>Disposer d’une activité professionnelle</li>
+                                            <li>Admission en L1 : être titulaire d’un baccalauréat (ou d’un diplôme de niveau équivalent) dans une série en relation avec la formation demandée</li>
+                                            <li>Admission en L2 : être titulaire d’un bac+1, dans une spécialité ou une discipline en relation avec la formation demandée</li>
+                                            <li>Admission en L3 : être titulaire d’un bac+2, dans une spécialité ou une discipline en relation avec la formation demandée</li>
+                                            <li>Remplir le formulaire de candidature en ligne et y joindre toutes les pièces demandées (tout dossier incomplet ne sera pas pris en compte)</li>
+                                            <li>Disposer d’un ordinateur et d’une connexion Internet</li>
+                                            <li>Avis favorable de la commission de sélection des candidats</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading panel_bleu">
+                <h3 class="panel-title">NOS MASTERS</h3>
+            </div>
+            <div class="panel-body" style="min-height: 320px">
+                - Finance-Comptabilité<br/>
+                - Audit et Contrôle de Gestion<br/>
+                - Droit International public<br/>
+                - Droit privé<br/>
+                - Modélisation et calcul scientifique<br/>
+                - Ingénieurie logicielle<br/>
+                - Systémes Réseaux et infrastructures virtuelles<br/>
+                - Sociologie<br/>
+                - Anglais (Parcours littérature-Civilisation du monde anglophone, Parcours Linguistiques-Grammaire)<br/>
+                - Science de l'Education ( Parcours Apprentissage et enseignements scolaires , Parcours Technologies éducatives)<br/>
+            </div>
+            <div class="btn-primary transformation panel_bleu" data-toggle="modal" data-target="#myModal1"> Conditions d'admission et tarifs</div>
+
+            <!-- Modal -->
+            <div id="myModal1" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Contenu modal 1 (conditions d'admissions master)-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tarifs et condition d'admission pour les masters</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Conditions d'admission</th>
+                                    <th>Tarifs</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td> <p>Régime normal
+                                        (Vous êtes étudiant et/ou vous n’avez pas d’activité professionnelle)</p></td>
+                                    <td>
+                                        <ul>
+                                            <li>Etre titulaire d’une licence (ou d’un diplôme de niveau équivalent) obtenue en 2017 dans un établissement</li>
+                                            <li>Etre titulaire d’une licence (ou d’un diplôme de niveau équivalent) dans une spécialité ou une discipline en relation avec la formation demandée</li>
+                                            <li>Avoir un bon dossier académique</li>
+                                            <li>Remplir le formulaire de candidature en ligne et y joindre toutes les pièces demandées (tout dossier incomplet ne sera pas pris en compte)</li>
+                                            <li>Disposer d’un ordinateur et d’une connexion Internet</li>
+                                            <li>Avis favorable de la commission de sélection des candidats</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Droits d’inscription : 50.000 F CFA / an</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><p>Régime spécial
+                                        Vous êtes ancien étudiant et/ou vous disposez d’une d’activité professionnelle (salariés ou non salariée), </p></td>
+                                    <td>
+                                        <ul>
+                                            <li>Etre titulaire d’une licence (ou d’un diplôme de niveau équivalent) obtenue avant 2017 dans tout établissement d’enseignement supérieur implanté au Sénégal ou à l’étranger, et/ou disposer d’une activité professionnelle</li>
+                                            <li>Etre titulaire d’une licence (ou d’un diplôme de niveau équivalent) dans une spécialité ou une discipline en relation avec la formation demandée</li>
+                                            <li>Avoir un bon dossier académique</li>
+                                            <li>Remplir le formulaire de candidature en ligne et y joindre toutes les pièces demandées (tout dossier incomplet ne sera pas pris en compte)</li>
+                                            <li>Disposer d’un ordinateur et d’une connexion Internet</li>
+                                            <li>Avis favorable de la commission de sélection des candidats</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 ">
+        <div class="panel panel-primary">
+            <div class="panel-heading panel_vert">
+                <h3 class="panel-title">NOS AUTRES DIPLOMES</h3>
+            </div>
+            <div class="panel-body" style="min-height: 320px">
+                Capacité en Droit<br/>
+            </div>
+            <div class="btn-primary transformation panel_vert"  data-toggle="modal" data-target="#myModal2"> Conditions d'admission et tarifs</div>
+
+            <!-- Modal -->
+            <div id="myModal2" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Contenu modal 3 (conditions d'admissions capacité en droit)-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tarifs et condition d'admission pour la capacité</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Conditions d'admission</th>
+                                    <th>Tarifs</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td> <p>Régime normal
+                                        (Vous êtes étudiant et/ou vous n’avez pas d’activité professionnelle)</p></td>
+                                    <td>
+                                        <ul>
+                                            <li>Ouvert à tous, sans condition de diplôme</li>
+                                            <li>Être âgé d’au moins 18 ans</li>
+                                            <li>Etre sans activité professionnelle</li>
+                                            <li>Remplir le formulaire de candidature en ligne et y joindre toutes les pièces demandées (tout dossier incomplet ne sera pas pris en compte)</li>
+                                            <li>Disposer d’un ordinateur et d’une connexion Internet</li>
+                                            <li>Avis favorable de la commission de sélection des candidats</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Droits d’inscription : 25.000 F CFA / an</li>
+                                            <li>8 mensualités de 12.500 F CFA ou 4 paiements de 25.000 F CFA</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><p>Régime spécial
+                                        Vous êtes ancien étudiant et/ou vous disposez d’une d’activité professionnelle (salariés ou non salariée) </p></td>
+                                    <td>
+                                        <ul>
+                                            <li>Ouvert à tous, sans condition de diplôme</li>
+                                            <li>Être âgé d’au moins 18 ans</li>
+                                            <li>Disposer d’une activité professionnelle</li>
+                                            <li>Remplir le formulaire de candidature en ligne et y joindre toutes les pièces demandées (tout dossier incomplet ne sera pas pris en compte)</li>
+                                            <li>Disposer d’un ordinateur et d’une connexion Internet</li>
+                                            <li>Avis favorable de la commission de sélection des candidats</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row espace_bas"></div>
+<footer class="footer"><!-- /debut footer -->
+    <div class="container">
+        <p>Copyright &copy; UVS | 2018 - Tous droits réservés
+            <br/>MINISTERE DE L'ENSEIGNEMENT SUPERIEUR,  DE LA RECHERCHE ET DE L'INNOVATION  <a href="http://mesr.gouv.sn/" target="_blank">(MESRI)</a>
+            <br/><a href="https://www.uvs.sn" target="_blank" > Université virtuelle du Sénégal (UVS)</a>
+        </p>
+    </div>
+</footer><!-- /fin footer -->
+
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#btnannuler").click(function(){
+            $("#bloc_form").fadeIn(1000);
+            $("#bloc_admission").fadeOut(1000)
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,513 @@
+body {
+	min-height: 600px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+ul li {
+	margin-bottom: 10px;
+	line-height: 20px
+}
+hr {
+	color: #F5F5F5;height: 2px
+}
+
+.vert{
+	color: #00A03A;
+}
+.marron{
+	color: #CA6C00;
+}
+
+.bleu{
+	color: #006FB8;
+}
+.blanc{
+	color: #FFFFFF;
+}
+.my_custom_opc{
+	opacity: 0.3
+}
+
+#id1{
+	width: 800px;
+	vertical-align: center;
+	margin-top:50px;
+}
+#center{
+font-size:40px;
+text-align: center;
+}
+
+img {
+	vertical-align: middle;
+	border:0;
+}
+.uvs-list-icon {
+	width: 80px;
+}
+
+#top_nav{
+	background-color: #000000;
+	height: 30px;
+}
+
+.ma_p{
+	color:#ffffff;
+	margin-top: -30px;
+	margin-left:30px;	
+}
+.back_img{
+	background: url("../images/Banniere-formation-plateforme.jpg") top center no-repeat;
+	min-height: 311px!important;
+	margin-top:223px;
+	padding: 0;
+}
+
+.row .container_paragraphe {
+	margin-top: -160px;
+	font-size:30px;
+	color:#000000;
+	height: 130px;
+	margin-left:290px;
+}
+
+#animation{
+
+	animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce{
+	from {transform: translateY(0);}
+	to   {transform: translateY(-20px);
+	}
+}
+
+.vert{
+color:#00A03A;
+}
+#panel_bleu{
+	background-color: #0066cc!important;
+	color: #ffffff;
+	height: 150px; 
+	width: 380px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+#panel_vert{
+	background-color: #00A03A!important;
+	color: #ffffff;
+	height: 150px; 
+	width: 380px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+
+#panel_marron{
+	background-color: #CA6C00!important;
+	color: #FFFFFF;
+	height: 150px; 
+	width: 380px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+#panel_gris{
+	background-color: #F1F1F1!important;
+	color: #333333;
+	height: auto; 
+	width: 380px;
+	margin-top:-2px;
+}
+
+
+#panel_neutre{
+	background-color: #FFFFFF!important;
+	color: #333333;
+	height: 250px; 
+	width: 7200px;
+	margin-top:-2px;
+}
+.anim {
+	animation-duration: 5s;
+	animation-name: glissement;
+	animation-iteration-count: infinite;
+}
+
+.aller {
+	animation-direction: normal;
+}
+
+.retour {
+	animation-direction: reverse;
+}
+@keyframes glissement {
+	from {
+		margin-left: 50%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
+}
+
+.pulse {
+	animation-name: pulse_animation;
+	animation-duration: 5000ms;
+	transform-origin:80% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.d3 {transform: rotate3d(1, 1, 1, 45deg);}
+
+.mon_icone_vert { 
+	color:#ffffff; 
+	font-size:13px;
+	text-align: center 
+	}
+.mon_icone_marron{ 
+	 color:#ffffff;
+	 font-size:13px;
+	 text-align: center
+ }
+.mon_icone_bleu{ 
+	color:#ffffff;
+	 font-size:13px;
+	 text-align: center
+}
+
+.icone_folder{
+	font-size: 40px;
+	color: #ffffff;
+	width: 80px;
+	vertical-align: middle; 
+	margin-top: 20px;
+	margin-left:150px;
+	margin-bottom: 20px
+	
+}
+
+.icone_folder_marron  {
+	font-size: 40px;
+	color: #ffffff;
+	width: 80px;
+	vertical-align: middle; 
+	margin-top: 20px;
+	margin-left:150px;
+	margin-bottom: 20px
+	
+}
+.icone_folder_marron:hover {
+	font-size: 40px;
+	color: #000000;
+	width: 80px;
+	vertical-align: middle; 
+	margin-top: 20px;
+	margin-left:150px;
+	margin-bottom: 20px
+	
+}
+.footer{
+	background-color: #000000;
+	 color:#ffffff;
+	 height: 100px;
+	 text-align: center;
+	 font-size:13px;
+}
+.footer p{
+	margin-top:20px;
+}
+
+.clear{
+	margin-top: 50px
+}
+
+/* Texte défilant */
+
+.defileParent {
+	display: block;
+	margin: 3em auto;
+	overflow: hidden;
+	position: relative;
+	table-layout: fixed;
+	width: 900px;
+}
+.defile {
+	display:block;
+	-webkit-animation:linear marqueelike 20s infinite ;
+	-moz-animation:linear marqueelike 20s infinite ;
+	-o-animation:linear marqueelike 20s infinite ;
+	-ms-animation:linear marqueelike 20s infinite ;
+	animation:linear marqueelike 20s infinite ;
+	margin-left:-100%;
+	padding:0 5px;
+	text-align:left;
+	height:15px;
+}
+
+
+.defile:after {
+	content:attr(data-text);
+	position:absolute;
+	white-space:nowrap;
+	padding-left:10px;
+}
+
+@-webkit-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-moz-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-o-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-ms-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+
+@media only screen and (max-width: 860px) {
+.defileParent {
+	display: block;
+	margin: 3em auto;
+	overflow: hidden;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.defile {
+	display:block;
+	-webkit-animation:linear marqueelike 15s infinite ;
+	-moz-animation:linear marqueelike 15s infinite ;
+	-o-animation:linear marqueelike 15s infinite ;
+	-ms-animation:linear marqueelike 15s infinite ;
+	animation:linear marqueelike 15s infinite ;
+	margin-left:-100%;
+	padding:0 5px;
+	text-align:left;
+	height:25px;
+}
+}
+
+h4{
+	font-size:15px;
+	font-weight: bold;
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+.titre_des_mai {
+    font-weight: 800;
+    color: #006FB8;
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.titre_des_seja_seg{
+	font-weight: 800;
+    color: #CA6C00;
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.titre_anglais,.titre_science_de_leducation{
+	font-weight: 800;
+    color: #00A03A;
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bleu_icone{
+	font-size:20px; 
+	margin-left:43px;
+	color:#CA6C00;
+}
+
+.triangle{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 40px 30px 0 30px;
+border-color: #CA6C00 transparent transparent transparent;
+}
+#panel_vert img{
+	height: 40px; width: 40px;
+	vertical-align: center;
+	margin-left: 150px;
+	margin-top:20px;
+	margin-bottom: 20px
+}
+#panel_bleu img{
+	height: 40px; width: 40px;
+	vertical-align: center;
+	margin-left: 150px;
+	margin-top:20px;
+	margin-bottom: 20px
+}
+
+#panel_marron img{
+	height: 40px; width: 40px;
+	vertical-align: center;
+	margin-left: 150px;
+	margin-top:20px;
+	margin-bottom: 20px
+} 
+
+a.list-group-item_a:focus{
+background-color: #00A03A;
+opacity: 0.2;
+}
+
+#btn_lshe_anglais:focus,
+#btn_lshe_anglais:hover,
+#btn_lshe_science_de_leducation:focus,
+#btn_lshe_science_de_leducation:hover,
+#btn_lshe_sociologie:focus,
+#btn_lshe_sociologie:hover,
+#btn_lshe_anglais_master:focus,
+#btn_lshe_anglais_master:hover,
+#btn_lshe_science_de_leducation_master:focus,
+#btn_lshe_science_de_leducation_master:hover,
+#btn_lshe_sociologie_master:focus,
+#btn_lshe_sociologie_master:hover{
+	background-color: #CCECD8;}
+
+#btn_SEJA_administration_economique_sociale:focus,   
+#btn_SEJA_administration_economique_sociale:hover,
+#btn_SEJA_SEG:focus,
+#btn_SEJA_SEG:hover,
+#btn_SEJA_sciences_juridiques:focus,
+#btn_SEJA_sciences_juridiques:hover,
+#btn_SEJA_science_politique:focus,
+#btn_SEJA_science_politique:hover,
+#btn_SEJA_DPrive:focus,
+#btn_SEJA_DPrive:hover,
+#btn_SEJA_DPublic:focus,
+#btn_SEJA_DPublic:hover,
+#btn_SEJA_FComptabilité:focus,
+#btn_SEJA_FComptabilité:hover,
+#btn_SEJA_Capacite:focus,
+#btn_SEJA_Capacite:hover
+#btn_SEJA_audit_master:focus,
+#btn_SEJA_audit_master:hover, 
+#btn_SEJA_DPrive_master:focus,
+#btn_SEJA_DPrive_master:hover, 
+#btn_SEJA_DPublic_master:focus,
+#btn_SEJA_DPublic_master:hover, 
+#btn_SEJA_FComptabilité_master:focus,
+#btn_SEJA_FComptabilité_master:hover,
+#btn_SEJA_Capacite_master:focus,
+#btn_SEJA_Capacite_master:hover{
+	background-color: #F4E2CC
+}
+#btn_STN_communication_digitale:focus,
+#btn_STN_communication_digitale:hover,
+#btn_STN_arts_graphiques_numériques:focus,
+#btn_STN_arts_graphiques_numériques:hover,
+#btn_STN_developpement_application:focus,
+#btn_STN_developpement_application:hover,
+#btn_SNT_MAI:focus,
+#btn_SNT_MAI:hover,
+#btn_STN_multimedia:focus,
+#btn_STN_multimedia:hover,
+#btn_STN_Ilogicielle:focus,
+#btn_STN_Ilogicielle:hover,
+#btn_STN_MCS:focus,
+#btn_STN_MCS:hover,
+#btn_STN_SRV:focus,
+#btn_STN_SRV:hover{
+	background-color: #CCEFF1;
+}
+body {background: #ffffff;}
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+

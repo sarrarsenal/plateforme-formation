@@ -1,0 +1,423 @@
+ <div class="col-md-11 uvs-part-mai" style="padding-left: 0">
+
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#formation-mai" aria-controls="formation-mai" role="tab" data-toggle="tab">Accéder aux Formations</a></li>
+                    <li role="presentation" ><a href="#spec-debouche-mai" aria-controls="spec-debouche-mai" role="tab" data-toggle="tab">Spécialités et débouchés</a></li>
+
+                    <p><a href="./index.php" class="retour-page-emplois"> <i class="glyphicon glyphicon-calendar"></i> Revenir aux emplois du temps</a></p>
+                  </ul>
+
+                  <!-- Tab panes -->
+                  <div class="tab-content uvs-tab-content" >
+
+                    <div role="tabpanel" class="tab-pane active" id="formation-mai">
+                    <br>    
+                        <div class="row">
+                            <div  class="col-sm-12">
+
+                                <div class="col-xs-3">
+                                    <!-- required for floating -->
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs tabs-right">
+                                        <li class="active" ><a href="#uvs-promo-1" data-toggle="tab">Promo 1</a></li>
+                                        <li><a href="#uvs-promo-2" data-toggle="tab">Promo 2</a></li>
+                                        <li><a href="#uvs-promo-3" data-toggle="tab">Promo 3</a></li>
+                                        <li><a href="#uvs-promo-4" data-toggle="tab">Promo 4</a></li>
+                                        <li><a href="#uvs-promo-5" data-toggle="tab">Promo 5</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-9">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="uvs-promo-1">
+                                           <div class="row">
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                   Promo 1 :: Licence 1
+                                                  </a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank"  class="list-group-item disabled">
+                                                   Promo 1 :: Licence 2
+                                                  </a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 3</a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 4</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#"  target="__blank"  class="list-group-item disabled">
+                                                    Promo 1 :: Licence 3
+                                                  </a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 5</a>
+                                                  <a href="http://formation2.uvs.sn"  target="__blank" class="list-group-item">Semestre 6</a>
+                                                 
+                                                </div>
+                                                <!--div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 1 :: Master 1
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 1 :: Master 2
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div-->
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="uvs-promo-2">
+                                            <div class="row">
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 2 :: Licence 1
+                                                  </a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank"  class="list-group-item disabled">
+                                                     Promo 2 :: Licence 2
+                                                  </a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 3</a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 4</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#"  target="__blank"  class="list-group-item disabled">
+                                                    Promo 2 :: Licence 3
+                                                  </a>
+                                                  <a href="http://formation2.uvs.sn" target="__blank"  class="list-group-item">Semestre 5</a>
+                                                  <a href="http://formation2.uvs.sn"  target="__blank" class="list-group-item">Semestre 6</a>
+                                                 
+                                                </div>
+                                                <!--div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 2 :: Master 1
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 2 :: Master 2
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div-->
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="uvs-promo-3">
+                                            <div class="row">
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 3 :: Licence 1
+                                                  </a>
+                                                  <a href="http://3v78r5phc56d.uvs.sn" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="http://3v78r5phc56d.uvs.sn" target="__blank"  class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank"  class="list-group-item disabled">
+                                                   Promo 3 ::  Licence 2
+                                                  </a>
+                                                  <a href="http://9i55z64bv9br.uvs.sn" target="__blank"  class="list-group-item">Semestre 3</a>
+                                                  <a href="http://9i55z64bv9br.uvs.sn" target="__blank"  class="list-group-item">Semestre 4</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#"  target="__blank"  class="list-group-item disabled">
+                                                    Promo 3 :: Licence 3
+                                                  </a>
+                                                  <a href="http://9i55z64bv9br.uvs.sn" target="__blank"  class="list-group-item">Semestre 5</a>
+                                                  <a href="http://9i55z64bv9br.uvs.sn"  target="__blank" class="list-group-item">Semestre 6</a>
+                                                 
+                                                </div>
+                                                <!--div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 3 :: Master 1
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                   Promo 3 ::  Master 2
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div-->
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="uvs-promo-4">
+                                            <div class="row">
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 4 :: Licence 1
+                                                  </a>
+                                                  <a href="http://formationmai.uvs.sn" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="http://formationmai.uvs.sn" target="__blank"  class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <!--div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank"  class="list-group-item disabled">
+                                                    Promo 4 :: Licence 2
+                                                  </a>
+                                                  <a href="#" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank"  class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#"  target="__blank"  class="list-group-item disabled">
+                                                    Promo 4 :: Licence 3
+                                                  </a>
+                                                  <a href="#" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="#"  target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 4 :: Master 1
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                   Promo 4 ::  Master 2
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div-->
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="uvs-promo-5">
+                                            <div class="row">
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 5 :: Licence 1
+                                                  </a>
+                                                  <a href="http://rn9xd22623fd.uvs.sn" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <!--a href="#" target="__blank"  class="list-group-item">Semestre 2</a-->
+                                                 
+                                                </div>
+                                                <!--div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank"  class="list-group-item disabled">
+                                                   Promo 5 ::  Licence 2
+                                                  </a>
+                                                  <a href="#" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank"  class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#"  target="__blank"  class="list-group-item disabled">
+                                                    Promo 5 :: Licence 3
+                                                  </a>
+                                                  <a href="#" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                  <a href="#"  target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 5 :: Master 1
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 5 :: Master 2
+                                                  </a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 1</a>
+                                                  <a href="#" target="__blank" class="list-group-item">Semestre 2</a>
+                                                 
+                                                </div-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                         </div>
+
+                    </div>
+                  <div role="tabpanel" class="tab-pane " id="spec-debouche-mai">
+                      <div class="row">
+                          <div class="col-md-5">
+                              <h6>Spécialisation Mathématiques appliquées</h6>
+                              <ul>
+                                  <li>  Professeur de lycée  </li>
+                                  <li>  Technicien statisticien</li>
+                                  <li>  Spécialiste analyse et traitement des données</li>
+                              </ul>
+                          </div>
+                          <div class="col-md-5">
+                              <h6>Spécialisation Informatique</h6>
+                              <ul>
+                                  <li>  Professeur de lycée </li>
+                                  <li>  Développeur </li>
+                                  <li>  Technicien systèmes d’information</li>
+                                  <li>  Administrateur de réseaux et systèmes </li>
+
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+       </div>
+    </div>
+</div>
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+<div class="col-sm-8" id="bloc_right_stn">
+                 <p class="titre_des_mai">MATHEMATIQUES APPLIQUEES A L'INFORMATIQUE</p>
+            <ul  class="nav nav-tabs" role="tablist">
+                <li class="active" ><a href="#tab1" data-toggle="tab">Accéder aux formations</a></li>
+                <li><a href="#tab2" data-toggle="tab" id="btn_specailite_mai" style="background-color: #ffffff; color:#006FB8">Parcours et débouchés</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1" role="tabpanel">
+                <div  class="col-sm-12" id="formation_mai">
+                                <div class="col-xs-12">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="uvs-promo-1">
+                                           <div class="row">
+                                                <div class="list-group col-sm-6">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                   Acceder à la plateforme 
+                                                  </a>
+                                                  <a href="http://mpse.uvs.sn" target="__blank"  class="list-group-item">Cliquez Ici</a>
+                                                </div>     
+                                           </div>
+                                      </div>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+                    
+              <div role="tabpanel" class="tab-pane" id="tab2">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h4>Spécialisation Mathématiques appliquées</h4>
+                                  <ul>
+                                      <li>Professeur de lycée</li>
+                                      <li>Technicien statisticien</li>
+                                      <li>Spécialiste analyse et traitement des données</li>
+                                      <!--li>l’adaptation aux nouvelles exigences du rôle d’enseignant vis-à-vis des élèves, des parents et des communautés</li-->
+                                  </ul>
+                              </div>
+                              <div class="col-md-12">
+                                  <h4>Spécialisation Informatique</h4>
+                                  <ul>
+                                      <li>Professeur de lycée</li> 
+                                      <li>Développeur</li>
+                                      <li>Technicien systèmes d’information</li>
+                                      <li>Administrateur de réseaux et systèmes</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+          </div><!-- /row -->
+     </div><!-- /container -->
+
+     /////////////////////////////////////////////////////////////////////////////////
+
+
+
+     <div class="col-sm-8"  id="bloc_right_lshe_science_de_leducation">
+              <div class="col-md-12 uvs-part-sce" style="padding-left: 0">
+                  <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                     <li role="presentation" class="active"><a href="#formation-sce" aria-controls="formation-sce" role="tab" data-toggle="tab">Accéder aux Formations</a></li>
+                    <li role="presentation" ><a href="#spec-debouche-sce" aria-controls="spec-debouche-sce" role="tab" data-toggle="tab" class="vert">Parcours et débouchés</a></li>
+                  </ul>
+                  <div class="tab-content uvs-tab-content responsive" >
+                    <div role="tabpanel" class="tab-pane active" id="formation-sce">
+                    <br>    
+                        <div class="row">
+                            <div  class="col-sm-12">
+                                <div class="col-xs-9">
+                                    <div class="tab-content responsive">
+                                        <div class="tab-pane active" id="uvs-promo-1">
+                                           <div class="row">
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                   Promo 1 :: Licence 1
+                                                  </a>
+                                                  <a href="http://98sHOmU67fpO.uvs.sn" target="__blank"  class="list-group-item">Semestre 1</a>
+                                                </div>
+                                                <div class="list-group col-sm-4">
+                                                  <a href="#" target="__blank" class="list-group-item disabled">
+                                                    Promo 1 :: Master 1
+                                                  </a>
+                                                  <a href="http://5qVz05Oe7NKv.uvs.sn" target="__blank" class="list-group-item">Semestre 1</a>
+                                                </div>                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                   </div>
+                                                            
+                      <div role="tabpanel" class="tab-pane " id="spec-debouche-sce">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h4>Le métier d’enseignant </h4>
+                                  <ul>
+                                      <li>Par le renouvellement des pratiques professionnelles dans le domaine de l’enseignement et de l’apprentissage scolaires ;</li>
+                                      <li>Par le renouvellement des pratiques professionnelles dans le domaine de l’enseignement et de l’apprentissage scolaires ;</li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-12">
+                                  <h4>Le métier de gestionnaire d’établissement scolaire :</h4>
+                                  <ul>
+                                      <li>Par le développement des habiletés pédagogique et organisationnel dans le domaine de la gestion d’établissement scolaire et autres institutions éducatives (inspections, directions de ministère de l’éducation…). </li>
+                                  </ul>
+                              </div>
+
+                              <div class="col-md-12">,
+                              </div>
+                                    <div class="col-md-12">
+                                          <h4>Le métier de spécialiste en Technologies de l’Education </h4>
+                                          <ul>
+                                              <li>Le diplômé aura une solide formation de spécialiste en technologies de l’éducation, plus spécifiquement dans l’un ou l’autre des champs de spécialisation liés à l’ingénierie techno-pédagogique;</li>
+                                              <li>etc.</li>
+                                          </ul>
+                                        </div>
+                                     </div>
+                                  </div>
+                              </div>
+                          </div>                          
+                      </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
